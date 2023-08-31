@@ -1,2 +1,2 @@
-# dokter
-Pengembangan Aplikasi Dokter berbasis Web menggunakan Codeigniter 3 dan di Integrasikan dengan SIMRSKhanza
+# WEB-PROJECT
+PROJECT SIMRS BERBASIS WEB DENGAN  CODEIGNITER 3 DAN TERINTEGRASI DENGAN SIMRS KHANZA
