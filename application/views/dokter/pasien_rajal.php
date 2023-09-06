@@ -42,8 +42,26 @@
                     <th>Status Bayar</th>
                   </tr>
                 </thead>
-                <tbody id="dataPasien">
-                  
+                <tbody>
+
+                 <?php
+
+                  $no = 1;
+
+                  foreach ($pasienRajal as $p) : ?>
+
+                    <tr>
+                      <td><?php echo $no++;?></td>
+                      <td><?php echo  $p->no_rkm_medis;?></td>
+                      <td><?php echo  $p->nm_pasien;?></td>
+                      <td><?php echo  $p->sttsumur;?></td>
+                      <td><?php echo  $p->nm_poli;?></td>
+                      <td><?php echo  $p->nm_dokter;?></td>
+                      <td><?php echo  $p->png_jawab;?></td>
+                      <td><?php echo  $p->stts_daftar;?></td>
+                      <td><?php echo  $p->status_bayar;?></td>
+                    </tr>
+                  <?php endforeach ;?>
                 </tbody>
               </table>
               </div>

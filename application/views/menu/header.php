@@ -26,6 +26,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
   <link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
   <link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
   <!-- Theme style -->
   <link rel="stylesheet" href="<?php echo base_url();?>assets/dist/css/adminlte.min.css">
 </head>
@@ -98,7 +100,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-header">MENU DOKTER</li>
           <li class="nav-item">
-            <a href="<?php echo base_url('dokter/index');?>" class="nav-link">
+            <a href="<?php echo base_url('dokter');?>" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>Dokter Rawat Jalan</p>
             </a>
